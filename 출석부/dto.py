@@ -26,7 +26,7 @@ class AttendanceCreateDTO(BaseModel):
 class AttendanceResponseDTO(BaseModel):
     id: int
     student_id: int
-    date: str
+    date: datetime
     status: str
 
     class Config:
